@@ -146,7 +146,7 @@ h1 {
 	background: -webkit-linear-gradient(-5deg, #ffffff 0%,#ffffff 50%,#1b1b1b 50%,#1b1b1b 100%); /* Chrome10-25,Safari5.1-6 */
 	background: linear-gradient(95deg, #ffffff 0%,#ffffff 50%,#1b1b1b 50%,#1b1b1b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
-.articles>.wrapper::after{
+.articles>.wrapper::after, .page-footer>.wrapper::after{
 	content: '.';
 	font-size: 0;
 	height: 1px;
@@ -191,10 +191,17 @@ h2::after{
 	margin-bottom: 60px;
 }
 
+/*============ Footer ==============*/
 
+.page-footer {
+	background: #111111;
+}
 
+.footer-col {
+	width: 25%;
+	float: left;
 
-
+}
 
 
 
