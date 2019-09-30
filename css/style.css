@@ -89,6 +89,64 @@ body {
 }
 
 
+/*============ MAIN ==============*/
+/*============ Banner ==============*/
+
+.banner {
+	height: 612px;
+	background: url(../images/banner.png);
+	background-size: cover;
+	padding-top: 230px;
+	box-sizing: border-box;
+}
+
+.banner-block {
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 60px;
+	font-weight: bold;
+	text-align: center;
+}
+
+h1 {
+	text-transform: uppercase;
+}
+
+
+.subtitle {
+	font-size: 21px;
+	font-weight: 300;
+}
+
+.learn-more {
+	display: block;
+	padding: 20px 30px;
+	color: inherit;
+	text-transform: uppercase;
+	background: #ca0500;
+	font-size: 14px;
+	text-decoration: none;
+	width: 166px;
+	box-sizing: border-box;
+	margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
