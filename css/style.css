@@ -93,6 +93,9 @@ body {
 	line-height: 66px;
 }
 
+.main-nav li a:hover {
+	color: #ff0000;
+}
 
 /*============ MAIN ==============*/
 /*============ Banner ==============*/
@@ -137,6 +140,10 @@ h1 {
 	margin: 0 auto;
 }
 
+.learn-more:hover {
+	box-shadow: inset 0 0 50px rgba(0, 0, 0, 0.5);
+	border: 1px solid #ff0000;
+}
 
 /*============ Articles ==============*/
 
@@ -224,9 +231,15 @@ h2::after{
 	line-height: 1.6;
 }
 
+.page-footer li:hover {
+	color: #fff;
+	cursor: pointer;
+}
+
 .copy {
-	color: #5858585;
-	margin-top: 32px;
+	color: #999;
+	font-size: 13px;
+	margin: 37px 0 24px;
 }
 
 .social a {
@@ -240,11 +253,14 @@ h2::after{
 	line-height: 44px;
 }
 
+.social a:hover {
+	background: #fff;
+	color: #ff0000;
+}
+
 .social li {
 	display: inline-block;
 }
-
-
 
 
 
