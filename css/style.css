@@ -195,20 +195,54 @@ h2::after{
 
 .page-footer {
 	background: #111111;
+	padding-top: 25px;
 }
 
 .footer-col {
 	width: 25%;
 	float: left;
-
 }
 
+.page-footer h3 {
+	font-size: 13px;
+	text-transform: uppercase;
+}
 
+.page-footer h3::after {
+	content: '.';
+	font-size: 0;
+	width: 90%;
+	height: 1px;
+	background: #292929;
+	display: block;
+	margin: 15px 0;
+}
 
+.page-footer li {
+	font-size: 13px;
+	color: #999;
+	line-height: 1.6;
+}
 
+.copy {
+	color: #5858585;
+	margin-top: 32px;
+}
 
+.social a {
+	display: block;
+	width: 44px;
+	height: 44px;
+	border-radius: 50%;
+	background: #000;
+	color: #fff;
+	text-align: center;
+	line-height: 44px;
+}
 
-
+.social li {
+	display: inline-block;
+}
 
 
 
